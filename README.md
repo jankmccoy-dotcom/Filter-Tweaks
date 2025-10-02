@@ -3,3 +3,6 @@ This was made to correct streams and add an artistic flare to others. The extens
 <br>
 <br>
 <img width="488" height="815" alt="Screenshot 2025-10-01 202052" src="https://github.com/user-attachments/assets/d7f17b40-15dc-4909-9276-612a3ffb3bbc" />
+<br>
+<br>
+This was made heavly with ChatGPT.
