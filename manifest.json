@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Video Filter Tweaks",
+  "version": "2.1",
+  "description": "Filter overlay for webpages and streaming video.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "jacobduerr@gmail.com"
+    }
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "webNavigation"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
